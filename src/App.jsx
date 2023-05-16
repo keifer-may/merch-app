@@ -20,22 +20,33 @@ function App() { // solid idiom write functions in PascalCase()
 
       <div id="item-cards" class="grid grid-cols-4 gap-11 my-4 p-5">
       
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {/* <Card title="Big Boi Tee" /> */}
+
+        <Card rounded={true} flat={false}>
+          <h2>Big Boi Tee, Black</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam exercitationem doloremque, quas ratione nisi?</p>
+          <button class="btn">view</button>
+        </Card>
+        <Card rounded={false} flat={true}>
+          <h2>Big Boi Tee, Gray</h2>
+          <button class="btn">view</button>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam exercitationem doloremque, quas ratione nisi?</p>
+          <p>Only $10</p>
+        </Card>
+
+        {/* <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/>
+        <Card title="Big Boi Tee"/> */}
 
       </div>
     </div>
