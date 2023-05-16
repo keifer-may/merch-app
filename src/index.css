@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  @apply
+    bg-slate-200 
+    text-slate-800
+    dark:text-slate-200 
+    dark:bg-slate-800
+    font-sans
+    m-0
+    p-0
+}
+
+h1{
+  @apply
+    text-2xl font-semibold 
+}
+
+.btn{
+  @apply
+    bg-amber-600
+    py-2 px-3 my-2
+    inline-block
+    text-white
+    rounded-md
+    border-2
+    border-amber-600
+}
+
