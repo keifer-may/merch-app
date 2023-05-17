@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body{
+html, body{
   @apply
     bg-zinc-200 
     text-zinc-800
